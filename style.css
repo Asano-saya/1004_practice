@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+body {
+    font-size: 14px;
+    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    letter-spacing: 0.5em;
+    line-height: 1.7;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.inner {
+    width: 86.49%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0;
+}
+
+/*main*/
+
+/*top*/
+.top {
+    background: url(images/bg_main.png) no-repeat center/cover;
+    padding: 240px 0 80px 0;
+    margin-bottom: 100px;
+}
+
+.top p {
+    font-size: 18px;
+}
+
+.main_info {
+    display: inline-block;
+    padding: 40px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.4em;
+}
+
+
+
+/*posts*/
+
+.posts {
+    text-align: center;
+
+}
+
+.posts p {
+    display: inline-block;
+    background-color: #72C9F3;
+    margin-bottom: 25px;
+
+}
+
+.posts h3 {
+    font-size: 36px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 80px;
+    margin: 20px auto 0;
+    border-top: 1px solid #000000;
+}
+
+.items {
+    position: relative;
+}
+
+.item p {
+    color: #fff;
+    background-color: #000000;
+    text-align: left;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.item ul {
+    margin: 20px 0 100px 0;
+    display: flex;
+}
+
+.item li {
+    font-size: 12px;
+    background-color: #F5F5F5;
+    padding: 6px 12px;
+    margin-right: 10px;
+}
+
+/*footer*/
+footer {
+    background-color: #1E1E1E;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footeres {
+    display: inline-block;
+    text-align: center;
+}
+
+footer .inner {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: #fff 1px solid;
+
+}
+
+.info dt {
+    margin-right: 50px;
+}
+
+p {
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+
+
+@media(min-width:740px) {
+    .discussion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .discussion article {
+        margin-right: 30px;
+    }
+}
